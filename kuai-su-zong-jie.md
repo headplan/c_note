@@ -27,5 +27,18 @@ int main() {
 
 > \n - 换行 . \t - 空格
 
+练习
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("*******\n");
+    printf("你好,宝贝\n");
+    printf("*******\n");
+    return 0;
+}
+```
+
 
 
