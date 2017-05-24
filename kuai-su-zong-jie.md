@@ -42,5 +42,14 @@ int main() {
 
 **int , float , double , char数据**
 
+变量赋值
+
+```c
+int a=3;
+float b=3.14; # 允许的小数点后面的位数相对少一点
+double c=3.14; # 允许的小数点后面的位数相对多一点
+char d='hi';
+```
+
 
 
