@@ -15,7 +15,7 @@ int main() {
 
 **printf语句**
 
-```
+```c
 #include <stdio.h>
 
 int main() {
