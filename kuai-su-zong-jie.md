@@ -40,5 +40,7 @@ int main() {
 }
 ```
 
+**int , float , double , char数据**
+
 
 
