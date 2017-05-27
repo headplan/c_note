@@ -201,6 +201,15 @@ int main()
 #include <stdio.h>
 int main()
 {
+    char c1,c2,c3,c4;
+    c1='o';
+    c2='r';
+    c3='y';
+    c4='a';
+    c1+=1;
+    c2+=1;
+    c3+=1;
+    c4+=1;
     printf("加密后的英文是:%c%c%c%c\n",c1,c2,c3,c4);
     return 0;
 }
