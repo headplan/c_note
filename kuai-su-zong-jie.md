@@ -118,7 +118,7 @@ int main()
 
 **用printf语句输出int , float , double , char型数据**
 
-int
+**int**
 
 \n - 换行
 
@@ -153,6 +153,25 @@ int main()
     b=456;
     sum=a+b;
     printf("和等于%d\n",sum);
+    return 0;
+}
+```
+
+**double**
+
+%f - 小数替代
+
+```c
+#include <stdio.h>
+int main()
+{
+    double a,b,c,s;
+    a=3.67;
+    b=5.43;
+    c=6.21;
+    s=(a+b+c)/2;
+    printf("设定的a是%f,b是%f,c是%f\n",a,b,c);
+    printf("求得的s是%f\n",s);
     return 0;
 }
 ```
