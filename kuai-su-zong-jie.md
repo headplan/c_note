@@ -178,6 +178,8 @@ int main()
 
 **char**
 
+%c - 字符替代
+
 ```c
 #include <stdio.h>
 int main()
