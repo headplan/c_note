@@ -62,5 +62,57 @@ a=1;
 c=5;
 ```
 
+整形
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a=5,b,c,d,e,f;
+    b=a+2; # b=5+2=7
+    c=b-a; # c=7-5=2
+    d=a*c; # d=5×2=10
+    e=a/d; # e=5/10=0.2=0 , 抹掉小数位0
+    f=a%d; # f=5%10=5 , 取余数
+    return 0;
+}
+```
+
+小数\(浮点\)
+
+```c
+#include <stdio.h>
+int main()
+{
+    double a,b,c,s;
+    a=3.67;
+    b=5.43;
+    c=6.21;
+    s=(a+b+c)/2;
+    return 0;
+}
+```
+
+字符
+
+```c
+#include <stdio.h>
+int main()
+{
+    # 大写字母A加1为B
+    # 大写字母A加2为C
+    # 大写字母加32位其小写字母,减去同理
+    char a='B',b='O',c='Y';
+    a=a+32; #a='b';
+    b=b+32; #b='o';
+    c=c+32; #c='y';
+    # 上面还可以写成这样
+    a+=32;
+    b+=32;
+    c+=32;
+    return 0;
+}
+```
+
 
 
