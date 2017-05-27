@@ -116,5 +116,25 @@ int main()
 }
 ```
 
+**用printf语句输出int , float , double , char型数据**
+
+int
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a=5,b,c,d,e,f;
+    b=a+2; # b=5+2=7
+    c=b-a; # c=7-5=2
+    d=a*c; # d=5×2=10
+    e=a/d; # e=5/10=0.2=0 , 抹掉小数位0
+    f=a%d; # f=5%10=5 , 取余数
+    printf("a=%d,b=%d,c=%cd\n",a,b,c);
+    printf("e=%d,f=%d",e,f);
+    return 0;
+}
+```
+
 
 
