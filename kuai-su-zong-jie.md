@@ -120,6 +120,12 @@ int main()
 
 int
 
+\n - 换行
+
+%d - 整数替代
+
+printf - 后面的变量依次替换
+
 ```c
 #include <stdio.h>
 int main()
