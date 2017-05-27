@@ -217,3 +217,19 @@ int main()
 
 **用scanf语句输入int , float , double , char型数据**
 
+int型
+
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b,s;
+	scanf("%d|%d",&a,&b);
+	s=(a+b)/2;
+	printf("%d与%d的平均是%d\n",a,b,s);
+	return 0;
+}
+```
+
+
+
