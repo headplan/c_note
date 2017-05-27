@@ -152,7 +152,7 @@ int main()
     a=123;
     b=456;
     sum=a+b;
-    printf("和等于%d",sum);
+    printf("和等于%d\n",sum);
     return 0;
 }
 ```
