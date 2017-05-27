@@ -176,5 +176,20 @@ int main()
 }
 ```
 
+**char**
+
+```c
+#include <stdio.h>
+int main()
+{
+    char a='B',b='O',c='Y';
+    a=a+32; #a='b';
+    b=b+32; #b='o';
+    c=c+32; #c='y';
+    printf("小写字母依次是%c%c%c\n",a,b,c);
+    return 0;
+}
+```
+
 
 
