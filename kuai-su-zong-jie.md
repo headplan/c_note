@@ -142,5 +142,20 @@ int main()
 }
 ```
 
+求整数123与456的和.
+
+```
+#include <stdio.h>
+int main()
+{
+    int a,b,sum;
+    a=123;
+    b=456;
+    sum=a+b;
+    printf("和等于%d",sum);
+    return 0;
+}
+```
+
 
 
