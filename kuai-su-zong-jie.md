@@ -144,7 +144,7 @@ int main()
 
 求整数123与456的和.
 
-```
+```c
 #include <stdio.h>
 int main()
 {
