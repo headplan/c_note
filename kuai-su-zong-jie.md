@@ -193,5 +193,18 @@ int main()
 }
 ```
 
+练习
+
+给"orya"加密 , 加密规律是 : 用原来字母后面的第一个字母代替原来字母.
+
+```c
+#include <stdio.h>
+int main()
+{
+    printf("加密后的英文是:%c%c%c%c\n",c1,c2,c3,c4);
+    return 0;
+}
+```
+
 **用scanf语句输入int , float , double , char型数据**
 
