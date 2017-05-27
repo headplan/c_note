@@ -193,5 +193,5 @@ int main()
 }
 ```
 
-
+**用scanf语句输入int , float , double , char型数据**
 
