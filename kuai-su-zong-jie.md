@@ -269,3 +269,28 @@ int main()
 
 **putchar\(\)语句和getchar\(\)语句**
 
+putchar输出字符
+
+getchar输入字符
+
+```c
+#include <stdio.h>
+int main()
+{
+    char a,b,c;
+    a=getchar();
+    b=getchar();
+    c=getchar();
+    a+=32;
+    b+=32;
+    c+=32;
+    putchar(a);
+    putchar(b);
+    putchar(c);
+    putchar("\n");
+    return 0;
+}
+```
+
+
+
