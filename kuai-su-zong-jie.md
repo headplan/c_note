@@ -287,7 +287,7 @@ int main()
     putchar(a);
     putchar(b);
     putchar(c);
-    putchar("\n");
+    putchar('\n');
     return 0;
 }
 ```
