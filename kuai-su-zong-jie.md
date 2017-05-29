@@ -267,5 +267,5 @@ int main()
 }
 ```
 
-
+**putchar\(\)语句和getchar\(\)语句**
 
