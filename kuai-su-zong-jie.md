@@ -292,5 +292,19 @@ int main()
 }
 ```
 
+**e^x , log等数学运算**
+
+常用数学函数
+
+```c
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    
+    return 0;
+}
+```
+
 
 
