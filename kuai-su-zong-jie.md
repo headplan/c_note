@@ -223,12 +223,33 @@ int型
 #include <stdio.h>
 int main()
 {
-	int a,b,s;
-	scanf("%d|%d",&a,&b);
-	s=(a+b)/2;
-	printf("%d与%d的平均是%d\n",a,b,s);
-	return 0;
+    int a,b,s;
+    scanf("%d|%d",&a,&b);
+    s=(a+b)/2;
+    printf("%d与%d的平均是%d\n",a,b,s);
+    return 0;
 }
+```
+
+float
+
+```
+float a,b;
+scanf("%f,%f",&a,&b);
+```
+
+double
+
+```
+double a,b;
+scanf("%lf,%lf",&a,&b);
+```
+
+char
+
+```
+char a,b;
+scanf("%c,%c",&a,&b);
 ```
 
 
