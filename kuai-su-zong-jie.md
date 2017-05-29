@@ -259,9 +259,10 @@ scanf("%c,%c",&a,&b);
 int main()
 {
     char a;
+    printf("请输入大写字母:\n");
     scanf("%c",&a);
     b=a+32;
-    printf("%c的小写字母是%c",a,b);
+    printf("%c的小写字母是%c\n",a,b);
     return 0;
 }
 ```
