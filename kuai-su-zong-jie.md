@@ -233,23 +233,37 @@ int main()
 
 float
 
-```
+```c
 float a,b;
 scanf("%f,%f",&a,&b);
 ```
 
 double
 
-```
+```c
 double a,b;
 scanf("%lf,%lf",&a,&b);
 ```
 
 char
 
-```
+```c
 char a,b;
 scanf("%c,%c",&a,&b);
+```
+
+编写一个程序 , 输入大写字母 , 可以输出小写字母
+
+```c
+#include <stdio.h>
+int main()
+{
+    char a;
+    scanf("%c",&a);
+    b=a+32;
+    printf("%c的小写字母是%c",a,b);
+    return 0;
+}
 ```
 
 
