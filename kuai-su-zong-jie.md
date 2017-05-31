@@ -337,7 +337,7 @@ int main()
 
 **%m.nf**
 
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -350,7 +350,7 @@ int main()
 
 **%e**
 
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -363,7 +363,7 @@ int main()
 
 **\(int\)表达式 : 将表达式的结果强制转换成整形**
 
-```
+```c
 #include <stdio.h>
 int main()
 {
