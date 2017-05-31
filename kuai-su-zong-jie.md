@@ -301,6 +301,7 @@ int main()
 #include <math.h>
 int main()
 {
+    int x;
     
     return 0;
 }
