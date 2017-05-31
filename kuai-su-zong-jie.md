@@ -333,5 +333,46 @@ int main()
 }
 ```
 
+**三个小知识点**
+
+**%m.nf**
+
+```
+#include <stdio.h>
+int main()
+{
+    double a,b,c;
+    # %m.nf : 小数一共占用m位,其中小数占n位,点也算一位,负号代表补空格的位置在后面
+    printf("%5.2f,%-5.2f,%7.4f",a,b,c);
+    return 0;
+}
+```
+
+**%e**
+
+```
+#include <stdio.h>
+int main()
+{
+    # %e : 以科学计数法的形式表现,1.234560e+02
+    printf("你的身高是%e厘米",123.456);
+    printf("你的身高是%10.2e厘米",123.456);
+    return 0;
+}
+```
+
+**\(int\)表达式 : 将表达式的结果强制转换成整形**
+
+```
+#include <stdio.h>
+int main()
+{
+    float a=999.999;
+    int b;
+    b=(int)(a/1000)
+    return 0;
+}
+```
+
 
 
